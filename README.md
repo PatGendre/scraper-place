@@ -1,10 +1,10 @@
-# `scaper-place`
+# `scraper-place`
 
 `scraper-place` est un scraper pour le site internet gouvernemental https://www.marches-publics.gouv.fr/ (PLACE pour PLateforme d'AChat de l'Etat). `scraper-place` n'a rien à voir avec Jean-Vincent Placé.
 
 PLACE permet d'accéder aux [Dossiers de Consultation des Entreprises (DCE)](https://fr.wikipedia.org/wiki/Dossier_de_consultation_des_entreprises) pour les consultations en cours. Malheureusement, PLACE ne permet pas un accès pratique aux ressources publiées pour tous les usages. D'une part, les dossiers des publications passées sont retirées. D'autre part, le fonctionnement du site rend malaisée le requetage automatisé des DCE.
 
-`scaper-place` va récupérer tous les DCE (ainsi que les métadonnées associées) pour les répliquer localement et les indexer.
+`scraper-place` va récupérer tous les DCE (ainsi que les métadonnées associées) pour les répliquer localement et les indexer.
 
 Le droit d'accès applicable aux DCE est résumé dans une [fiche de la CADA](http://www.cada.fr/marches-publics,6085.html).
 
@@ -16,7 +16,7 @@ PLACE uses the PHP framework PRADO. It stores the current navigation state in th
 Curiously, a small fraction of the DCE appear in several pages, and this is not related to the addition of documents during the course of the parsing. I guess such a feature would be very difficult to implement purposefully.
 
 
-## Install `scaper-place`
+## Install `scraper-place`
 
 ### Prerequisites
 
